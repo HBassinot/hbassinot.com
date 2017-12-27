@@ -59,16 +59,20 @@
 
 <!-- Second Parallax Image with code -->
 <div class="hb-code-bgimg w3-display-container" id="xp">
-  <div class="hb-home-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">Consultant Liferay / Java / JEE</span>
+  <div class="hb-home-display-middle" style="">
+    <div class="w3-left w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">Consultant:<br> Liferay / Java / JEE</div>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">Experiences professionnelle</h3>
+  <h2 class="w3-center">Experiences professionnelle</h2>
   
-  <p class="w3-center"><em>Voici ci-dessous les entreprises chez lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em></p><br>
+  <p class="w3-center">
+    <em>Voici ci-dessous les entreprises chez lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
+  </p>
+
+  <br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
@@ -77,28 +81,31 @@
     </div>
     
     <div class="w3-col m2">
-      <img src="img/logo-savoirfairelinux.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Logo Savoir-faire Linux">
-      Savoir-faire Linux
+      <img src="img/logo-savoirfairelinux.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Savoir-faire Linux">
+      <span class="hb-enterprise-name">Savoir-faire Linux</span>
+      <div style="display:none" data-date-start="2015" data-date-end="now">
+        
+      </div>
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-obs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Logo Orange Business Services">
-      Orange Business Servies
+      <img src="img/logo-obs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange Business Services">
+      <span class="hb-enterprise-name">Orange Business Services</span>
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-axileo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Logo Axileo">
-      Axileo
+      <img src="img/logo-axileo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Axileo">
+      <span class="hb-enterprise-name">Axileo</span>
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Logo EDF">
-      EDF
+      <img src="img/logo-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="EDF">
+      <span class="hb-enterprise-name">EDF</span>
     </div>
     
     <div class="w3-col m2">
-      <img src="img/logo-orange.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Logo Orange">
-      Orange
+      <img src="img/logo-orange.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange">
+      <span class="hb-enterprise-name">Orange</span>
     </div>
     
     <div class="w3-col m1">
@@ -106,7 +113,13 @@
     </div>
   </div>
 
-  <p class="w3-center"><em>Voici ci-dessous les clients chez qui j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em></p><br>
+  <br><br>
+  
+  <p class="w3-center">
+    <em>Voici ci-dessous les clients chez qui j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
+  </p>
+
+  <br>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
@@ -124,18 +137,31 @@
     <div class="w3-col m3">
       <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
     </div>
+
     <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+
   </div>
 </div>
 
 <!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+<div id="modal01" class="hb-modal w3-black" onclick="this.style.display='none'">
   <span class="hb-menu-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="skills">
+  <h2 class="w3-center">Compétences</h2>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+ ABCD
+  </div>
+</div>
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -145,9 +171,9 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="skills">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h2 class="w3-center">Contact</h2>
+  <p class="w3-center"><em>Laissez moi un message</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -156,9 +182,9 @@
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Montréal, QC, CA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 xxxx<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: herve (dot) bassinot (at) gmail (dot) com<br>
       </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
       <form action="/action_page.php" target="_blank">
@@ -179,19 +205,12 @@
   </div>
 </div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="hb-menu-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-</footer>
-
+<div id="hb-backtop" class="hb-backtop-hide">
+  <a href="#home" class="hb-menu-button w3-light-grey" >
+    <i class="fa fa-arrow-up w3-margin-right"></i>
+    Haut de page
+  </a>
+</div>
 
 <!-- Add Google Maps -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW19i8dbfrAI5A7k6MyJqk8GZG-kNiToM&callback=initMap"></script>

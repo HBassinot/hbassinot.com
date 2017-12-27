@@ -8,7 +8,7 @@ function initMap() {
     mapTypeId: 'hybrid'
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-map.setTilt(45);
+  map.setTilt(45);
   var marker = new google.maps.Marker({
     position: myCenter,
   });
@@ -34,6 +34,13 @@ function myFunction() {
     } else {
         navbar.className = navbar.className.replace(" hb-menu-top-bar", "");
         menubar.className = menubar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+
+    var backtop = document.getElementById("hb-backtop");
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+      backtop.className = " hb-animate-opacity hb-backtop-visible";
+    } else {
+      backtop.className = backtop.className.replace("hb-backtop-visible", "hb-backtop-hide");
     }
 }
 
