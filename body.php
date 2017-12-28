@@ -26,7 +26,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="hb-home-bgimg w3-display-container" id="home">
   <div class="hb-home-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">HBASSINOT.COM</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">HERVÉ BASSINOT</span>
   </div>
 </div>
 
@@ -81,7 +81,8 @@
     </div>
     
     <div class="w3-col m2">
-      <img src="img/logo-savoirfairelinux.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Savoir-faire Linux">
+      <span class="hb-enterprise-name">Consultant en logiciel libres</span>
+      <img src="img/logo-enterprise/logo-savoirfairelinux.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Savoir-faire Linux">
       <span class="hb-enterprise-name">Savoir-faire Linux</span>
       <div style="display:none" data-date-start="2015" data-date-end="now">
         
@@ -89,22 +90,26 @@
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-obs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange Business Services">
+      <span class="hb-enterprise-name">Ingénieur concepteur</span>
+      <img src="img/logo-enterprise/logo-obs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange Business Services">
       <span class="hb-enterprise-name">Orange Business Services</span>
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-axileo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Axileo">
+      <span class="hb-enterprise-name">Ingénieur d'études</span>
+      <img src="img/logo-enterprise/logo-axileo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Axileo">
       <span class="hb-enterprise-name">Axileo</span>
     </div>
 
     <div class="w3-col m2">
-      <img src="img/logo-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="EDF">
+      <span class="hb-enterprise-name">Stagiaire développeur Java/JEE</span>
+      <img src="img/logo-enterprise/logo-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="EDF">
       <span class="hb-enterprise-name">EDF</span>
     </div>
     
     <div class="w3-col m2">
-      <img src="img/logo-orange.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange">
+      <span class="hb-enterprise-name">Stagiaire développeur</span>
+      <img src="img/logo-enterprise/logo-orange.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange">
       <span class="hb-enterprise-name">Orange</span>
     </div>
     
@@ -122,23 +127,37 @@
   <br>
 
   <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-dgag.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desjardins Groupe d'Assurances Générales">
+      <span class="hb-enterprise-name">Desjardins Groupe d'Assurances Générales</span>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-desjardins.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desjardins">
+      <span class="hb-enterprise-name">Desjardins</span>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-touchtunes.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Touchtunes">
+      <span class="hb-enterprise-name">Touchtunes</span>
     </div>
 
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-erdf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Enedis">
+      <span class="hb-enterprise-name">Enedis (ex ERDF)</span>
     </div>
 
-    <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-betc.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BETC">
+      <span class="hb-enterprise-name">BETC</span>
+    </div>
+
+    <div class="w3-col m2">
+      <img src="img/logo-mission/mission-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="EDF">
+      <span class="hb-enterprise-name">EDF</span>    
+    </div>
+
+    <!-- <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
 
   </div>
 </div>
@@ -152,28 +171,74 @@
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
+<!-- Container (Skill Section) -->
 <div class="w3-content w3-container w3-padding-64" id="skills">
   <h2 class="w3-center">Compétences</h2>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
- ABCD
+  <p class="w3-center"><em>La liste de mes compétences</em></p>
+  <div class="w3-row-padding w3-center w3-section">
+//TODO
   </div>
 </div>
 
+<!-- Container (Project Section) -->
+<div class="w3-content w3-container w3-padding-64" id="projects">
+  <h2 class="w3-center">Projets</h2>
+  <p class="w3-center">
+    <em>Au cours de mes différentes missions, j'ai eu l'occasion de travailler sur de nombreux projets intéressants. 
+    Voici ci-dessous une liste des projets et des sites publiques sur lesquels j'ai pu travailler:</em>
+  </p>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m6">
+      <a href="https://www.lapersonnelle.com" title="La Personnelle" target="_blank">
+        <img src="img/projet/capture-lptp.png" style="width:100%" class="w3-hover-opacity" alt="Site La Personnelle">
+        <span class="hb-enterprise-name">La Personnelle (2017)</span>
+      </a>
+    </div>
+
+    <div class="w3-col m6">
+      <a href="https://www.desjardinsassurancesgenerales.com" title="Desjardins Assurances" target="_blank">
+        <img src="img/projet/capture-dadi.png" style="width:100%" class="w3-hover-opacity" alt="Site Desjardins Assurances">
+        <span class="hb-enterprise-name">Desjardins Assurances (2016)</span>
+      </a>
+    </div>
+
+    <div class="w3-col m6">
+      <a href="https://www.dan-on.com" title="DanOn" target="_blank">
+        <img src="img/projet/capture-danon.png" style="width:100%" class="w3-hover-opacity" alt="Site DanOn">
+        <span class="hb-enterprise-name">DanOn (2014)</span>
+      </a>
+    </div>
+
+    <div class="w3-col m6">
+      <a href="https://mediateur.edf.fr/" title="EDF Médiateur" target="_blank">
+        <img src="img/projet/capture-mediateur.png" style="width:100%" class="w3-hover-opacity" alt="Site Médiateur EDF">
+        <span class="hb-enterprise-name">EDF Médiateur (2013)</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Formations Section) -->
+<div class="w3-content w3-container w3-padding-64" id="formations">
+  <h2 class="w3-center">Formations</h2>
+  <p class="w3-center"><em>la liste de mes formations</em></p>
+
+  <div class="w3-row-padding w3-center w3-section">
+//TODO
+  </div>
+</div>
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">CONTACT</span>
   </div>
 </div>
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h2 class="w3-center">Contact</h2>
-  <p class="w3-center"><em>Laissez moi un message</em></p>
+  <h2 class="w3-center">Vous pouvez me joindre ici</h2>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -182,11 +247,31 @@
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Montréal, QC, CA<br>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Adresse: Montréal, QC, CA<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 xxxx<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: herve (dot) bassinot (at) gmail (dot) com<br>
+        <div class="hb-contact-social">
+          <ul class="inlineList">
+            <li>
+              <a href="https://github.com/HBassinot" target="_blank">
+                <img alt="Black Github Icon" data-type="image" class="contact-icon" title="GitHub" src="img/social/github.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/hbassinot/" target="_blank">
+                <img alt="Black Linkedin Icon" data-type="image" class="contact-icon" title="LinkedIn" src="img/social/linkedin.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/hbassinot" target="_blank">
+                <img alt="Black Twitter Icon" data-type="image" class="contact-icon" title="Twitter" src="img/social/twitter.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+
+      <p>Laissez moi un message:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -198,7 +283,7 @@
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
         <button class="hb-menu-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <i class="fa fa-paper-plane"></i> ENVOYER UN MESSAGE
         </button>
       </form>
     </div>

@@ -111,7 +111,7 @@ body, html {
   display: block !important;
   position: fixed;
   right: 0;
-  bottom: 60px;
+  bottom: 50px;
 }
 
 .hb-enterprise-name {
@@ -164,14 +164,14 @@ body, html {
 
 /* First image (Logo. Full height) */
 .hb-home-bgimg {
-    background-image: url('../img/home-background.jpg');
+    background-image: url('../img/background/home-background.jpg');
     min-height: 100%;
     opacity: 0.75;
 }
 
 /* Second image (code) */
 .hb-code-bgimg {
-    background-image: url("../img/work-background.jpg");
+    background-image: url("../img/background/work-background.jpg");
     min-height: 500px;
     opacity: 0.75;
 }
@@ -184,17 +184,42 @@ body, html {
     -ms-transform: translate(-50%,-50%);
 }
 
-.hb-work-logo {
+.hb-contact-social {
+  margin-bottom: 15px;
+}
 
-
+.contact-icon {
+  display: inline-block;
+  width: 23px; 
+  height: 23px; 
+  object-fit: cover;
+  padding-right: 10px;
+  opacity: 0.65;
 }
 
 
-#footer {
+/********************************************************************************/
+/******************** FOOTER ********************/
+/********************************************************************************/
+.hb-footer-social {
+  float: left;
+  text-align: left;
+}
+
+.hb-footer-logo {
+  text-align: right;
+}
+
+#hb-footer-hb {
+  padding: 6px;
+}
+
+#hb-footer {
   background-color: white;
-  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16),0 2px 5px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.16),0 -2px 10px 0 rgba(0,0,0,0.12);
+  box-sizing: unset;
+  background-color: #1f72b9cc;
 }
-
 
 .footer-icon {
   display: inline-block;
@@ -215,15 +240,14 @@ body, html {
    /* Bonus: forces no word-wrap */
    white-space: nowrap;
    margin: 5px;
+   box-sizing: unset;
 }
-
-
-/*POUBELLE**/
+/********************************************************************************/
 
 
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../img/contact-background.jpg");
+    background-image: url("../img/background/contact-background.jpg");
     min-height: 400px;
 }
