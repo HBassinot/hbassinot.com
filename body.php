@@ -66,10 +66,10 @@
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
-  <h2 class="w3-center">Experiences professionnelle</h2>
+  <h2 class="w3-center">Expériences professionnelle</h2>
   
   <p class="w3-center">
-    <em>Voici ci-dessous les entreprises chez lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
+    <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
   </p>
 
   <br>
@@ -191,28 +191,28 @@
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m6">
       <a href="https://www.lapersonnelle.com" title="La Personnelle" target="_blank">
-        <img src="img/projet/capture-lptp.png" style="width:100%" class="w3-hover-opacity" alt="Site La Personnelle">
+        <img src="img/projet/capture-lptp.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site La Personnelle">
         <span class="hb-enterprise-name">La Personnelle (2017)</span>
       </a>
     </div>
 
     <div class="w3-col m6">
       <a href="https://www.desjardinsassurancesgenerales.com" title="Desjardins Assurances" target="_blank">
-        <img src="img/projet/capture-dadi.png" style="width:100%" class="w3-hover-opacity" alt="Site Desjardins Assurances">
+        <img src="img/projet/capture-dadi.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site Desjardins Assurances">
         <span class="hb-enterprise-name">Desjardins Assurances (2016)</span>
       </a>
     </div>
 
     <div class="w3-col m6">
       <a href="https://www.dan-on.com" title="DanOn" target="_blank">
-        <img src="img/projet/capture-danon.png" style="width:100%" class="w3-hover-opacity" alt="Site DanOn">
+        <img src="img/projet/capture-danon.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site DanOn">
         <span class="hb-enterprise-name">DanOn (2014)</span>
       </a>
     </div>
 
     <div class="w3-col m6">
       <a href="https://mediateur.edf.fr/" title="EDF Médiateur" target="_blank">
-        <img src="img/projet/capture-mediateur.png" style="width:100%" class="w3-hover-opacity" alt="Site Médiateur EDF">
+        <img src="img/projet/capture-mediateur.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site Médiateur EDF">
         <span class="hb-enterprise-name">EDF Médiateur (2013)</span>
       </a>
     </div>
