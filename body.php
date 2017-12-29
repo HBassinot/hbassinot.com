@@ -230,7 +230,7 @@
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">CONTACT</span>
   </div>
@@ -272,7 +272,7 @@
       </div>
 
       <p>Laissez moi un message:</p>
-      <form action="/action_page.php" target="_blank">
+      <form action="/contact.php" target="_blank" method="post">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -282,8 +282,8 @@
           </div>
         </div>
         <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="hb-menu-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> ENVOYER UN MESSAGE
+        <button class="hb-menu-button w3-black w3-right w3-section" name="envoi" type="submit">
+          <i class="fa fa-paper-plane"></i>ENVOYER UN MESSAGE
         </button>
       </form>
     </div>
