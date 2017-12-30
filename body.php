@@ -185,7 +185,7 @@
   <h2 class="w3-center">Projets</h2>
   <p class="w3-center">
     <em>Au cours de mes différentes missions, j'ai eu l'occasion de travailler sur de nombreux projets intéressants. 
-    Voici ci-dessous une liste des projets et des sites publiques sur lesquels j'ai pu travailler:</em>
+    Voici ci-dessous une liste des projets et des sites publics sur lesquels j'ai pu travailler:</em>
   </p>
 
   <div class="w3-row-padding w3-center w3-section">

@@ -94,7 +94,7 @@
     		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1))) {
     			echo '<p>'.$message_envoye.'</p>';
     		}	else {
-    			echo '<p>'.$message_non_envoye'</p>';
+    			echo '<p>'.$message_non_envoye.'</p>';
     		};
     	}
     	else {
