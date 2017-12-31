@@ -10,7 +10,8 @@
     <a href="#xp" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Expériences</a>
     <a href="#skills" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Compétences</a>
     <a href="#projects" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Projets</a>
-    <a href="#formations" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Formations</a>
+    <a href="#formations" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Études</a>
+    <a href="#contact" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Contact</a>
   </div>
 
   <!-- menu on small screens -->
@@ -19,7 +20,8 @@
     <a href="#xp" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">XP</a>
     <a href="#skills" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Compétences</a>
     <a href="#projects" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Projets</a>
-    <a href="#formations" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Formations</a>
+    <a href="#formations" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Études</a>
+    <a href="#contact" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Contact</a>
   </div>
 </nav>
 
@@ -31,8 +33,8 @@
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h2 class="w3-center">Bio</h2>
+<div class="w3-content w3-container w3-padding-48" id="about">
+  <h1 class="w3-center">Bio</h1>
   <p class="w3-center">
     <em>
       <blockquote>"We programmers spend our lives writing code so that our fellow human beings no longer need to write code"</blockquote>
@@ -65,8 +67,8 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64">
-  <h2 class="w3-center">Expériences professionnelle</h2>
+<div class="w3-content w3-container w3-padding-48">
+  <h1 class="w3-center">Expériences professionnelle</h1>
   
   <p class="w3-center">
     <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
@@ -171,18 +173,22 @@
   </div>
 </div>
 
+<hr/>
+
 <!-- Container (Skill Section) -->
-<div class="w3-content w3-container w3-padding-64" id="skills">
-  <h2 class="w3-center">Compétences</h2>
+<div class="w3-content w3-container w3-padding-48" id="skills">
+  <h1 class="w3-center">Compétences</h1>
   <p class="w3-center"><em>La liste de mes compétences</em></p>
   <div class="w3-row-padding w3-center w3-section">
 //TODO
   </div>
 </div>
 
+<hr/>
+
 <!-- Container (Project Section) -->
-<div class="w3-content w3-container w3-padding-64" id="projects">
-  <h2 class="w3-center">Projets</h2>
+<div class="w3-content w3-container w3-padding-48" id="projects">
+  <h1 class="w3-center">Projets</h1>
   <p class="w3-center">
     <em>Au cours de mes différentes missions, j'ai eu l'occasion de travailler sur de nombreux projets intéressants. 
     Voici ci-dessous une liste des projets et des sites publics sur lesquels j'ai pu travailler:</em>
@@ -219,76 +225,13 @@
   </div>
 </div>
 
+<hr/>
+
 <!-- Container (Formations Section) -->
-<div class="w3-content w3-container w3-padding-64" id="formations">
-  <h2 class="w3-center">Formations</h2>
-  <p class="w3-center"><em>la liste de mes formations</em></p>
-
-  <div class="w3-row-padding w3-center w3-section">
-//TODO
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">CONTACT</span>
-  </div>
-</div>
+<?php include("formation.php"); ?>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h2 class="w3-center">Vous pouvez me joindre ici</h2>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
-      <div id="googleMap" class="w3-round-large" style="width:100%;height:400px;"></div>
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Adresse: Montréal, QC, CA<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 xxxx<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: herve (dot) bassinot (at) gmail (dot) com<br>
-        <div class="hb-contact-social">
-          <ul class="inlineList">
-            <li>
-              <a href="https://github.com/HBassinot" target="_blank">
-                <img alt="Black Github Icon" data-type="image" class="contact-icon" title="GitHub" src="img/social/github.svg">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/hbassinot/" target="_blank">
-                <img alt="Black Linkedin Icon" data-type="image" class="contact-icon" title="LinkedIn" src="img/social/linkedin.svg">
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/hbassinot" target="_blank">
-                <img alt="Black Twitter Icon" data-type="image" class="contact-icon" title="Twitter" src="img/social/twitter.svg">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <p>Laissez moi un message:</p>
-      <form action="/contact.php" target="_blank" method="post">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="hb-menu-button w3-black w3-right w3-section" name="envoi" type="submit">
-          <i class="fa fa-paper-plane"></i>ENVOYER UN MESSAGE
-        </button>
-      </form>
-    </div>
-  </div>
-</div>
+<?php include("contact.php"); ?>
 
 <div id="hb-backtop" class="hb-backtop-hide">
   <a href="#home" class="hb-menu-button w3-light-grey" >
@@ -296,9 +239,4 @@
     Haut de page
   </a>
 </div>
-
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW19i8dbfrAI5A7k6MyJqk8GZG-kNiToM&callback=initMap"></script>
-
-
 

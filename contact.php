@@ -1,124 +1,64 @@
-    <?php
-    /*
-    	********************************************************************************************
-    	CONFIGURATION
-    	********************************************************************************************
-    */
-    // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-    $destinataire = 'herve.bassinot@gmail.com';
-     
-    // copie ? (envoie une copie au visiteur)
-    $copie = 'oui';
-     
-    // Action du formulaire (si votre page a des paramètres dans l'URL)
-    // si cette page est index.php?page=contact alors mettez index.php?page=contact
-    // sinon, laissez vide
-    $form_action = '';
-     
-    // Messages de confirmation du mail
-    $message_envoye = "Votre message nous est bien parvenu !";
-    $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
-     
-    // Message d'erreur du formulaire
-    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
-     
-    /*
-    	********************************************************************************************
-    	FIN DE LA CONFIGURATION
-    	********************************************************************************************
-    */
-     
-    /*
-     * cette fonction sert à nettoyer et enregistrer un texte
-     */
-    function Rec($text) {
-    	$text = htmlspecialchars(trim($text), ENT_QUOTES);
-    	if (1 === get_magic_quotes_gpc())	{
-    		$text = stripslashes($text);
-    	}
-     
-    	$text = nl2br($text);
-    	return $text;
-    };
-     
-    /*
-     * Cette fonction sert à vérifier la syntaxe d'un email
-     */
-    function IsEmail($email) {
-    	$value = preg_match('/^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!\.)){0,61}[a-zA-Z0-9_-]?\.)+[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!$)){0,61}[a-zA-Z0-9_]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/', $email);
-    	return (($value === 0) || ($value === false)) ? false : true;
-    }
-     
-    // formulaire envoyé, on récupère tous les champs.
-    $nom     = (isset($_POST['Name']))    ? Rec($_POST['Name'])    : '';
-    $email   = (isset($_POST['Email']))   ? Rec($_POST['Email'])   : '';
-    $objet   = (isset($_POST['objet']))   ? Rec($_POST['objet'])   : 'Hbassinot.com';
-    $message = (isset($_POST['Message'])) ? Rec($_POST['Message']) : '';
-     
-    // On va vérifier les variables et l'email ...
-    $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
-    $err_formulaire = false; // sert pour remplir le formulaire en cas d'erreur si besoin
-     
-    if (isset($_POST['envoi'])) {
-    	if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))	{
-    		// les 4 variables sont remplies, on génère puis envoie le mail
-    		$headers  = 'From:'.$nom.' <'.$email.'>' . "\r\n";
-    		//$headers .= 'Reply-To: '.$email. "\r\n" ;
-    		//$headers .= 'X-Mailer:PHP/'.phpversion();
-     
-    		// envoyer une copie au visiteur ?
-    		if ($copie == 'oui') {
-    			$cible = $destinataire.';'.$email;
-    		}	else {
-    			$cible = $destinataire;
-    		};
-     
-    		// Remplacement de certains caractères spéciaux
-    		$message = str_replace("&#039;","'",$message);
-    		$message = str_replace("&#8217;","'",$message);
-    		$message = str_replace("&quot;",'"',$message);
-    		$message = str_replace('&lt;br&gt;','',$message);
-    		$message = str_replace('&lt;br /&gt;','',$message);
-    		$message = str_replace("&lt;","&lt;",$message);
-    		$message = str_replace("&gt;","&gt;",$message);
-    		$message = str_replace("&amp;","&",$message);
-     
-    		// Envoi du mail
-    		$num_emails = 0;
-    		$tmp = explode(';', $cible);
-    		foreach($tmp as $email_destinataire) {
-    			if (mail($email_destinataire, $objet, $message))
-    				$num_emails++;
-    		}
-     
-    		if ((($copie == 'oui') && ($num_emails == 2)) || (($copie == 'non') && ($num_emails == 1))) {
-    			echo '<p>'.$message_envoye.'</p>';
-    		}	else {
-    			echo '<p>'.$message_non_envoye.'</p>';
-    		};
-    	}
-    	else {
-    		// une des 3 variables (ou plus) est vide ...
-    		echo '<p>'.$message_formulaire_invalide.'</p>';
-    		$err_formulaire = true;
-    	};
-    }; // fin du if (!isset($_POST['envoi']))
-     
-    if (($err_formulaire) || (!isset($_POST['envoi']))) {
-    	// afficher le formulaire
-    	echo '
-    	<form id="contact" method="post" action="'.$form_action.'">
-    	<fieldset><legend>Vos coordonnées</legend>
-    		<p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" value="'.stripslashes($nom).'" tabindex="1" /></p>
-    		<p><label for="email">Email :</label><input type="text" id="email" name="email" value="'.stripslashes($email).'" tabindex="2" /></p>
-    	</fieldset>
-     
-    	<fieldset><legend>Votre message :</legend>
-    		<p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" value="'.stripslashes($objet).'" tabindex="3" /></p>
-    		<p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8">'.stripslashes($message).'</textarea></p>
-    	</fieldset>
-     
-    	<div style="text-align:center;"><input type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
-    	</form>';
-    };
-    ?>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container" id="contact">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">CONTACT</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h1 class="w3-center">Vous pouvez me joindre ici</h1>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large" style="width:100%;height:400px;"></div>
+    </div>
+
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Adresse: Montréal, QC, CA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 xxxx<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: herve (dot) bassinot (at) gmail (dot) com<br>
+        <div class="hb-contact-social">
+          <ul class="inlineList">
+            <li>
+              <a href="https://github.com/HBassinot" target="_blank">
+                <img alt="Black Github Icon" data-type="image" class="contact-icon" title="GitHub" src="img/social/github.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/hbassinot/" target="_blank">
+                <img alt="Black Linkedin Icon" data-type="image" class="contact-icon" title="LinkedIn" src="img/social/linkedin.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/hbassinot" target="_blank">
+                <img alt="Black Twitter Icon" data-type="image" class="contact-icon" title="Twitter" src="img/social/twitter.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p>Laissez moi un message:</p>
+      <form action="/mail.php" target="_blank" method="post">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="hb-menu-button w3-black w3-right w3-section" name="envoi" type="submit">
+          <i class="fa fa-paper-plane"></i>ENVOYER UN MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCW19i8dbfrAI5A7k6MyJqk8GZG-kNiToM&callback=initMap"></script>
+
