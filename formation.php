@@ -1,5 +1,5 @@
 <div class="w3-content w3-container w3-padding-48" id="formations">
-  <h1 class="w3-center">Études</h1>
+  <h1 class="w3-center">Formations</h1>
   <h3 class="w3-center"><em>Diplômes</em></h3>
 
   <div class="hb-formation-block">

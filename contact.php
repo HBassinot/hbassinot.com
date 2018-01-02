@@ -1,12 +1,12 @@
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container" id="contact">
+<div class="hb-contact-bgimg hb-section-img w3-display-container" id="contact">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">CONTACT</span>
   </div>
 </div>
 
 <div class="w3-content w3-container w3-padding-64">
-  <h1 class="w3-center">Vous pouvez me joindre ici</h1>
+  <h1 class="w3-center">Vous pouvez me contacter ici</h1>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -56,6 +56,7 @@
         </button>
       </form>
     </div>
+
   </div>
 </div>
 

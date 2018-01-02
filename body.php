@@ -6,21 +6,21 @@
       <i class="hb-menu-icon-small"></i>
     </a>
     <a href="#home" class="hb-menu-button">Accueil</a>
-    <a href="#about" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Bio</a>
-    <a href="#xp" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Expériences</a>
-    <a href="#skills" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Compétences</a>
+    <!-- <a href="#about" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Bio</a>-->
+    <a href="#xp" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Consultant</a>
+    <!-- <a href="#skills" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Compétences</a>-->
     <a href="#projects" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Projets</a>
-    <a href="#formations" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Études</a>
+    <!-- <a href="#formations" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Formations</a>-->
     <a href="#contact" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Contact</a>
   </div>
 
   <!-- menu on small screens -->
   <div id="hb-menu-small" class="w3-bar-block w3-white w3-hide hb-menu-hide-large">
-    <a href="#about" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Bio</a>
-    <a href="#xp" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">XP</a>
-    <a href="#skills" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Compétences</a>
+    <!-- <a href="#about" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Bio</a>-->
+    <a href="#xp" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Consultant</a>
+    <!-- <a href="#skills" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Compétences</a>-->
     <a href="#projects" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Projets</a>
-    <a href="#formations" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Études</a>
+    <!-- <a href="#formations" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Formations</a>-->
     <a href="#contact" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Contact</a>
   </div>
 </nav>
@@ -28,7 +28,7 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="hb-home-bgimg w3-display-container" id="home">
   <div class="hb-home-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">HERVÉ BASSINOT</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">HERVÉ BASSINOT</span>
   </div>
 </div>
 
@@ -37,30 +37,40 @@
   <h1 class="w3-center">Bio</h1>
   <p class="w3-center">
     <em>
-      <blockquote>"We programmers spend our lives writing code so that our fellow human beings no longer need to write code"</blockquote>
-      <cite>Jeff Atwood</cite>
+      <blockquote>"We programmers spend our lives writing code so that our fellow human beings no longer need to write code"</blockquote>  
     </em>
+    <cite>-- Jeff Atwood</cite>
   </p>
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <p class="w3-center">//TODO write a good story about me ;)</p>
+  <p class="w3-center">
+    //TODO write a good story about me ;)
+  </p>
+
+  <p class="w3-justify w3-content w3-container">
+    Analyste développeur et concepteur spécialisé dans les technologies Java.  
+    Je possede plus de 6 ans d'expériences professionnelle en développement logiciel.
+    J'ai participé à de nombreux projets en interne et pour plusieurs clients dans différents domaines (Publicité, Télécom, Assurance, Bancaire et Énergie).
+    Je me suis spécialisé dans le développement d'applications Liferay.
+  </p>
+  
   <div class="w3-third w3-section">
-    <span class="w3-xlarge">6 ans+</span><br>
-    d'expérience professionnelle
+    <span class="w3-xlarge">6+</span><br>
+    Années d'expérience
   </div>
   <div class="w3-third w3-section">
-    <span class="w3-xlarge">15+</span><br>
+    <span class="w3-xlarge">12+</span><br>
     Projets réussis
   </div>
   <div class="w3-third w3-section">
-    <span class="w3-xlarge">8+</span><br>
+    <span class="w3-xlarge">6+</span><br>
     Missions chez le client
   </div>
 </div>
 
 <!-- Second Parallax Image with code -->
-<div class="hb-code-bgimg w3-display-container" id="xp">
+<div class="hb-code-bgimg hb-section-img w3-display-container" id="xp">
   <div class="hb-home-display-middle" style="">
     <div class="w3-left w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">Consultant:<br> Liferay / Java / JEE</div>
   </div>
@@ -70,63 +80,98 @@
 <div class="w3-content w3-container w3-padding-48">
   <h1 class="w3-center">Expériences professionnelle</h1>
   
+  <h3 class="w3-center"><em>Entreprises</em></h3>
   <p class="w3-center">
-    <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
+    <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> 
+    Cliquez sur les fleches pour plus de détails :</em>
   </p>
 
   <br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m1">
-      <img src="img/logo-pixel.png" style="width:100%">
-    </div>
-    
-    <div class="w3-col m2">
-      <span class="hb-enterprise-name">Consultant en logiciel libres</span>
-      <img src="img/logo-enterprise/logo-savoirfairelinux.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Savoir-faire Linux">
-      <span class="hb-enterprise-name">Savoir-faire Linux</span>
-      <div style="display:none" data-date-start="2015" data-date-end="now">
-        
+
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-savoirfairelinux.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Savoir-faire Linux">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Consultant en logiciel libre</h4>
+        <div class="hb-enterprise-name">Savoir-faire Linux</div>
+        <div class="hb-enterprise-date">Sept. 2015 à aujourd'hui</div>
       </div>
     </div>
 
-    <div class="w3-col m2">
-      <span class="hb-enterprise-name">Ingénieur concepteur</span>
-      <img src="img/logo-enterprise/logo-obs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange Business Services">
-      <span class="hb-enterprise-name">Orange Business Services</span>
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-obs.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Orange Business Services">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Ingénieur concepteur</h4>
+        <div class="hb-enterprise-name">Orange Business Services</div>
+        <div class="hb-enterprise-date">Oct. 2014 à Aout 2015</div>
+      </div>
     </div>
 
-    <div class="w3-col m2">
-      <span class="hb-enterprise-name">Ingénieur d'études</span>
-      <img src="img/logo-enterprise/logo-axileo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Axileo">
-      <span class="hb-enterprise-name">Axileo</span>
-    </div>
-
-    <div class="w3-col m2">
-      <span class="hb-enterprise-name">Stagiaire développeur Java/JEE</span>
-      <img src="img/logo-enterprise/logo-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="EDF">
-      <span class="hb-enterprise-name">EDF</span>
-    </div>
-    
-    <div class="w3-col m2">
-      <span class="hb-enterprise-name">Stagiaire développeur</span>
-      <img src="img/logo-enterprise/logo-orange.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity hb-work-logo" alt="Orange">
-      <span class="hb-enterprise-name">Orange</span>
-    </div>
-    
-    <div class="w3-col m1">
-      <img src="img/logo-pixel.png" style="width:100%">
-    </div>
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-axileo.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Axileo">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Ingénieur d'études</h4>
+        <div class="hb-enterprise-name">Axileo</div>
+        <div class="hb-enterprise-date">Oct. 2012 à Sept 2014</div>
+      </div>
+    </div> 
   </div>
 
-  <br><br>
-  
-  <p class="w3-center">
-    <em>Voici ci-dessous les clients chez qui j'ai travaillé.<br> Cliquez sur les logos pour plus de détails :</em>
-  </p>
+  <h3 class="w3-center"><em>Stages</em></h3>
+
+  <div class="w3-row-padding w3-center">
+
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-edf.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="EDF">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Stagiaire développeur Java/JEE</h4>
+        <div class="hb-enterprise-name">EDF</div>
+        <div class="hb-enterprise-date">Avri. 2012 à Sept. 2012</div>
+      </div>
+    </div> 
+
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-edf.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="EDF">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Stagiaire développeur Java/JEE</h4>
+        <div class="hb-enterprise-name">EDF</div>
+        <div class="hb-enterprise-date">Mai. 2011 à Sept. 2011</div>
+      </div>
+    </div> 
+
+    <div class="hb-enterprise-block">
+      <div class="hb-enterprise-left">
+        <img src="img/logo-enterprise/logo-orange.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Orange">
+      </div>
+      <div class="hb-enterprise-desc">
+        <h4 class="hb-enterprise-poste">Stagiaire développeur</h4>
+        <div class="hb-enterprise-name">Orange</div>
+        <div class="hb-enterprise-date">Juin 2010 à Sept. 2010</div>
+      </div>
+    </div> 
+  </div>
 
   <br>
+  
+  <h3 class="w3-center"><em>Clients</em></h3>
+
+  <p class="w3-center">
+    <em>Voici ci-dessous les clients chez qui j'ai effectué des missions en tant que consultant.<br> Cliquez sur les logos pour plus de détails :</em>
+  </p>
+
+//TODO add a carousel
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m2">
@@ -186,9 +231,27 @@
 
 <hr/>
 
+<!-- Container (Formations Section) -->
+<?php include("formation.php"); ?>
+
 <!-- Container (Project Section) -->
-<div class="w3-content w3-container w3-padding-48" id="projects">
-  <h1 class="w3-center">Projets</h1>
+<div class="hb-project-bgimg w3-display-container hb-section-img" id="projects">
+  <div class="hb-home-display-middle" style="">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">PROJETS</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-48">
+  <h1 class="w3-center">Projets Perso</h1>
+
+  <div class="w3-center">
+    <em><a href="/koch">Flocon de Koch: HTML5 et JS</a></em><br/>
+    <em><a href="https://github.com/HBassinot/Basic-Messenger">Micro Serveur de Messagerie: C et BASH</a></em><br/>
+    <em><a href="https://github.com/HBassinot/T9-Console">T9 en mode console: C</a></em>
+  </div>
+
+  <h1 class="w3-center">Projets Pro</h1>
+
   <p class="w3-center">
     <em>Au cours de mes différentes missions, j'ai eu l'occasion de travailler sur de nombreux projets intéressants. 
     Voici ci-dessous une liste des projets et des sites publics sur lesquels j'ai pu travailler:</em>
@@ -225,10 +288,6 @@
   </div>
 </div>
 
-<hr/>
-
-<!-- Container (Formations Section) -->
-<?php include("formation.php"); ?>
 
 <!-- Container (Contact Section) -->
 <?php include("contact.php"); ?>

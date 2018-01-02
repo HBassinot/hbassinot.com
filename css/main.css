@@ -1,5 +1,6 @@
 /******************** CSS hbassinot.com ********************/
 
+
 /********************************************************************************/
 /******************** BALISES ********************/
 /********************************************************************************/
@@ -15,6 +16,7 @@ hr {
 }
 /********************************************************************************/
 
+
 /********************************************************************************/
 /******************** HEADER ********************/
 /********************************************************************************/
@@ -29,8 +31,8 @@ hr {
   color: white;
   padding: 8px 16px;
 }
-
 /********************************************************************************/
+
 
 /********************************************************************************/
 /******************** MENU ********************/
@@ -106,6 +108,10 @@ hr {
 }
 /********************************************************************************/
 
+
+/********************************************************************************/
+/******************** BUTTON TOP ********************/
+/********************************************************************************/
 .hb-backtop-hide {
   display: none;
 }
@@ -116,75 +122,15 @@ hr {
   right: 0;
   bottom: 50px;
 }
+/********************************************************************************/
 
-.hb-enterprise-name {
-  font-weight: bold;
-}
 
-.hb-modal {
-    z-index: 3;
-    display: none;
-    padding-top: 60px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .hb-home-bgimg, .hb-code-bgimg, .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
-
-.hb-animate-opacity {
-    animation: opac 3s;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-iteration-count: 1;
-    animation-play-state: running;
-    animation-name: opac;
-}
-
-/* Create a Parallax Effect */
-.hb-home-bgimg, .hb-code-bgimg, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.hb-home-bgimg {
-    background-image: url('../img/background/home-background.jpg');
-    min-height: 100%;
-    opacity: 0.75;
-}
-
-/* Second image (code) */
-.hb-code-bgimg {
-    background-image: url("../img/background/work-background.jpg");
-    min-height: 100%;
-    opacity: 0.75;
-}
-
-.hb-home-display-middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+/********************************************************************************/
+/******************** CONTACT ********************/
+/********************************************************************************/
+/* Third image (Contact) */
+.hb-contact-bgimg {
+  background-image: url("../img/background/contact-background.jpg");
 }
 
 .hb-contact-social {
@@ -199,6 +145,35 @@ hr {
   padding-right: 10px;
   opacity: 0.65;
 }
+/********************************************************************************/
+
+
+/********************************************************************************/
+/******************** ENTERPRISES ********************/
+/********************************************************************************/
+.hb-enterprise-logo {
+  width:120px;
+  float:left;
+}
+
+.hb-enterprise-desc {
+  text-align: left;
+  padding: 5px;
+}
+
+.hb-enterprise-left {
+  float:left;
+  padding-right: 15px;
+}
+
+.hb-enterprise-block {
+  margin: auto;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+/********************************************************************************/
+
 
 /********************************************************************************/
 /******************** FORMATIONS ********************/
@@ -217,12 +192,10 @@ hr {
 }
 
 .hb-formation-block {
-  width: 750px;
   margin: auto;
   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
   padding: 15px;
 }
-
 /********************************************************************************/
 
 
@@ -272,11 +245,97 @@ hr {
 }
 /********************************************************************************/
 
-
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("../img/background/contact-background.jpg");
+.hb-section-img {
   min-height: 100%;
   opacity: 0.75;
+}
+
+.hb-project-bgimg {
+  background-image: url("../img/background/project-background.jpg");
+}
+
+
+.hb-enterprise-name {
+  font-weight: bold;
+}
+
+.hb-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .hb-home-bgimg, .hb-code-bgimg, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.hb-animate-opacity {
+    animation: opac 3s;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-name: opac;
+}
+
+/* Create a Parallax Effect */
+.hb-home-bgimg, .hb-section-img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.hb-home-bgimg {
+    background-image: url('../img/background/home-background.jpg');
+    min-height: 100%;
+    opacity: 0.75;
+}
+
+/* Second image (code) */
+.hb-code-bgimg {
+    background-image: url("../img/background/work-background.jpg");
+}
+
+.hb-home-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+@media (min-width:651px) {
+  .hb-xp-small {
+    
+  }
+}
+
+.hb-enterprise-logo {
+  float:left;
+  height:120px;
+}
+
+
+.hb-enterprise-blocright {
+  float:right;
+  text-align:left;
 }
