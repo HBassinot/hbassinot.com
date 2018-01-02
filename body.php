@@ -83,7 +83,7 @@
   <h3 class="w3-center"><em>Entreprises</em></h3>
   <p class="w3-center">
     <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> 
-    Cliquez sur les fleches pour plus de détails :</em>
+    Cliquez sur les flèches pour plus de détails :</em>
   </p>
 
   <br>
@@ -101,8 +101,9 @@
         <div class="hb-enterprise-date">Sept. 2015 à aujourd'hui</div>
       </div>
     </div>
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-1"></div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-1">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
 
 
@@ -116,8 +117,9 @@
         <div class="hb-enterprise-date">Oct. 2014 à Aout 2015</div>
       </div>
     </div>
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-2"></div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-2">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
 
 
@@ -131,15 +133,20 @@
         <div class="hb-enterprise-date">Oct. 2012 à Sept 2014</div>
       </div>
     </div>
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-3"></div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-3">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
   </div>
 
   <h3 class="w3-center"><em>Stages</em></h3>
 
-  <div class="w3-row-padding w3-center">
+  <p class="w3-center">
+    <em>Voici ci-dessous les stages en entreprises pour lesquelles j'ai effectué un stage.<br> 
+    Cliquez sur les flèches pour plus de détails :</em>
+  </p>
 
+  <div class="w3-row-padding w3-center">
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
         <img src="img/logo-enterprise/logo-edf.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="EDF">
@@ -150,8 +157,18 @@
         <div class="hb-enterprise-date">Avri. 2012 à Sept. 2012</div>
       </div>
     </div> 
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-4">
+Stage de fin d'études.<br/>
+Dans le département SINETICS chez EDF Recherche&Développement à Clamart (92 140)<br/>
+
+Conception et développement d'un outil de gestion et d'édition d'ontologie en Java.<br/>
+Migration et montée de version d'applications de Liferay 6.0.5 vers Liferay 6.1.<br/>
+
+Technos : Liferay 6.0.5, 6.1, ant, Tomcat, Spring MVC, Javascript (jquery, AUI), Java<br/>
+
+    </div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-4">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
 
 
@@ -165,8 +182,17 @@
         <div class="hb-enterprise-date">Mai. 2011 à Sept. 2011</div>
       </div>
     </div> 
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-5">
+Stage de M1.<br/>
+Dans le groupe ASICS chez EDF Recherche&Développement à Clamart (92 140)<br/>
+
+Conception et développement d'un outil de gestion des ressources informatiques, au sein du portail collaboratif "Pléiade". Réalisation de portlets avec Liferay 6.0.<br/>
+
+Technos : Liferay 6.0, Javascript (jquery, AUI), Spring MVC, Tomcat, ant<br/>
+
+    </div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-5">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
 
 
@@ -180,8 +206,17 @@
         <div class="hb-enterprise-date">Juin 2010 à Sept. 2010</div>
       </div>
     </div>
-    <div class=" hb-enterprise-block-a">
-      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    <div class="hb-enterprise-deschide" id="hb-ent-6">
+      Stage de fin de licence.<br/>
+      Dans le service IRQ/SACHEM chez Orange France à Ivry-sur-Seine (94 200)<br/>
+
+      Conception et développement d'une application de gestion de workflow permettant le suivi des livraisons logiciels de l'application "SACHEM" pour les cartes prépayées.<br/>
+
+      Technos : HTML, PHP, Javascript (jquery), MySQL<br/>
+
+    </div>
+    <div class="hb-enterprise-block-a" data-idel="hb-ent-6">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow"/>
     </div>
   </div>
 
@@ -221,7 +256,7 @@
 
     <div class="hb-client-block">
       <img src="img/logo-mission/mission-edf.png" style="width:100%" class="w3-hover-opacity" alt="EDF">
-      <span class="hb-enterprise-name">EDF</span>    
+      <span class="hb-enterprise-name">EDF</span>
     </div>
 
     <!-- <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
@@ -259,6 +294,17 @@
           }
         ]
       });
+
+
+$('.hb-enterprise-block-a').click(function () {
+console.log($(this));
+  var el = $('#' + $(this).data('idel'));
+  if ( el.is( ":hidden" ) ) {
+    el.slideDown( "slow" );
+  } else {
+    el.hide();
+  }
+});
     });
   </script>
 </div>
