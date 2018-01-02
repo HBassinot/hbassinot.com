@@ -54,6 +54,9 @@ function toggleFunction() {
     }
 }
 
+
+
+//TODO
 $('.xxx').appear(function() {
  $(this).text('Hello world');
   $(this).addClass('hb-animate-opacity');

@@ -93,7 +93,7 @@
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
-        <img src="img/logo-enterprise/logo-savoirfairelinux.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Savoir-faire Linux">
+        <img src="img/logo-enterprise/logo-savoirfairelinux.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Savoir-faire Linux"/>
       </div>
       <div class="hb-enterprise-desc">
         <h4 class="hb-enterprise-poste">Consultant en logiciel libre</h4>
@@ -101,10 +101,14 @@
         <div class="hb-enterprise-date">Sept. 2015 à aujourd'hui</div>
       </div>
     </div>
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
+
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
-        <img src="img/logo-enterprise/logo-obs.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Orange Business Services">
+        <img src="img/logo-enterprise/logo-obs.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Orange Business Services"/>
       </div>
       <div class="hb-enterprise-desc">
         <h4 class="hb-enterprise-poste">Ingénieur concepteur</h4>
@@ -112,6 +116,10 @@
         <div class="hb-enterprise-date">Oct. 2014 à Aout 2015</div>
       </div>
     </div>
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
+
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
@@ -122,7 +130,10 @@
         <div class="hb-enterprise-name">Axileo</div>
         <div class="hb-enterprise-date">Oct. 2012 à Sept 2014</div>
       </div>
-    </div> 
+    </div>
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
   </div>
 
   <h3 class="w3-center"><em>Stages</em></h3>
@@ -139,6 +150,10 @@
         <div class="hb-enterprise-date">Avri. 2012 à Sept. 2012</div>
       </div>
     </div> 
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
+
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
@@ -150,6 +165,10 @@
         <div class="hb-enterprise-date">Mai. 2011 à Sept. 2011</div>
       </div>
     </div> 
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
+
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
@@ -160,7 +179,10 @@
         <div class="hb-enterprise-name">Orange</div>
         <div class="hb-enterprise-date">Juin 2010 à Sept. 2010</div>
       </div>
-    </div> 
+    </div>
+    <div class=" hb-enterprise-block-a">
+      <img src="img/arrow-down.png" class="hb-enterprise-arrow" class="w3-hover-opacity" alt="arrow"/>
+    </div>
   </div>
 
   <br>
@@ -168,45 +190,77 @@
   <h3 class="w3-center"><em>Clients</em></h3>
 
   <p class="w3-center">
-    <em>Voici ci-dessous les clients chez qui j'ai effectué des missions en tant que consultant.<br> Cliquez sur les logos pour plus de détails :</em>
+    <em>Voici ci-dessous les clients chez qui j'ai effectué des missions en tant que consultant.</em>
   </p>
 
-//TODO add a carousel
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-dgag.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desjardins Groupe d'Assurances Générales">
-      <span class="hb-enterprise-name">Desjardins Groupe d'Assurances Générales</span>
-    </div>
-
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-desjardins.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desjardins">
-      <span class="hb-enterprise-name">Desjardins</span>
-    </div>
-
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-touchtunes.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Touchtunes">
-      <span class="hb-enterprise-name">Touchtunes</span>
-    </div>
-
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-erdf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Enedis">
-      <span class="hb-enterprise-name">Enedis (ex ERDF)</span>
-    </div>
-
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-betc.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="BETC">
+  <div class="hb-clients w3-row-padding w3-center w3-section">
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-betc.png" style="width:100%" class="w3-hover-opacity" alt="BETC">
       <span class="hb-enterprise-name">BETC</span>
     </div>
 
-    <div class="w3-col m2">
-      <img src="img/logo-mission/mission-edf.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="EDF">
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-dgag.png" style="width:100%" class="w3-hover-opacity" alt="Desjardins Groupe d'Assurances Générales">
+      <span class="hb-enterprise-name">Desjardins Groupe d'Assurances Générales</span>
+    </div>
+
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-touchtunes.png" style="width:100%" class="w3-hover-opacity" alt="Touchtunes">
+      <span class="hb-enterprise-name">Touchtunes</span>
+    </div>
+
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-desjardins.png" style="width:100%" class="w3-hover-opacity" alt="Desjardins">
+      <span class="hb-enterprise-name">Desjardins</span>
+    </div>
+
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-erdf.png" style="width:100%" class="w3-hover-opacity" alt="Enedis">
+      <span class="hb-enterprise-name">Enedis (ex ERDF)</span>
+    </div>
+
+    <div class="hb-client-block">
+      <img src="img/logo-mission/mission-edf.png" style="width:100%" class="w3-hover-opacity" alt="EDF">
       <span class="hb-enterprise-name">EDF</span>    
     </div>
 
     <!-- <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
 
   </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.hb-clients').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
 </div>
 
 <!-- Modal for full size images on click-->
