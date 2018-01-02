@@ -9,9 +9,7 @@
             
       <script src="js/main.js"></script>
 
-
       <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
-      // Add the new slick-theme.css if you want the default styling
       <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
 
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
