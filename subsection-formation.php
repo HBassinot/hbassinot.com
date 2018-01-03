@@ -1,5 +1,6 @@
+
 <div class="w3-content w3-container w3-padding-48" id="formations">
-  <h1 class="w3-center">Formations</h1>
+  <h1 class="w3-center">Études</h1>
   <h3 class="w3-center"><em>Diplômes</em></h3>
 
   <div class="hb-formation-block">
@@ -20,7 +21,7 @@
   </div>
 
   <br/>
-  
+
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="http://www.u-pem.fr/formations/loffre-de-formations/licences-generales/domaine-sciences-technologies-sante/mention-informatique/licence-informatique/" title="Licence de l'Université Paris Est Marne-la-Vallée" target="_blank">
@@ -58,7 +59,7 @@
   </div>
 
   <h3 class="w3-center"><em>Formations</em></h3>
- 
+
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
@@ -92,7 +93,7 @@
   </div>
 
   <h3 class="w3-center"><em>Certifications</em></h3>
-  
+
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/services/certification/verify-a-certification" title="Vérifier la certification" target="_blank">
@@ -109,5 +110,4 @@
       </div>
     </div>
   </div>
-
 </div>

@@ -151,12 +151,7 @@ hr {
 /********************************************************************************/
 /******************** ENTERPRISES ********************/
 /********************************************************************************/
-.hb-enterprise-logo {
-  width:120px;
-  float:left;
-}
-
-.hb-enterprise-desc {
+.hb-enterprise-data {
   text-align: left;
   padding: 5px;
 }
@@ -176,7 +171,8 @@ hr {
 
 .hb-enterprise-logo {
   float:left;
-  height:120px;
+  height:150px;
+  width:150px;
 }
 
 .hb-enterprise-arrow {
@@ -200,7 +196,16 @@ hr {
 
 }
 
-.hb-enterprise-deschide {
+.hb-enterprise-technos {
+  font-weight: bold;
+  margin: 2px;
+}
+
+.hb-enterprise-date {
+  font-style:italic;
+}
+
+.hb-enterprise-description {
   margin: 3px;
   padding: 20px;
   display: none;
@@ -223,6 +228,7 @@ hr {
 
 .hb-formation-desc {
   text-align: left;
+  padding: 5px;
 }
 
 .hb-formation-left {
@@ -376,5 +382,13 @@ hr {
   .hb-xp-small {
     
   }
+}
+
+.hb-skill-values {
+  text-align: left;
+}
+
+.hb-skill {
+  font-weight: bold;
 }
 
