@@ -161,12 +161,16 @@ hr {
   padding-right: 15px;
 }
 
+
+
 .hb-enterprise-block {
   margin: auto;
   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
   padding: 15px;
   z-index: 10;
   background-color:white;
+  border-radius: 20px 20px 0px 0px;
+border:white solid 5px;
 }
 
 .hb-enterprise-logo {
@@ -178,16 +182,17 @@ hr {
 .hb-enterprise-arrow {
   width: 90px;
   height: 20px;
-  box-shadow: 0px 5px 6px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.5);
   cursor: pointer;
   border-radius: 0px 0px 10px 10px;
+  z-index:2;
 }
 
 .hb-enterprise-block-a {
   margin-bottom: 20px;
   padding: 5px;
   z-index: 1;
-  margin-top: -10px;
+  margin-top: -9px;
 }
 
 .hb-enterprise-blocright {
@@ -210,10 +215,10 @@ hr {
   padding: 20px;
   display: none;
   width: 98%;
-  z-index: 1;
+  z-index: 2;
   margin: auto;
   box-shadow: 0px 5px 6px 1px rgba(0,0,0,0.5);
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 20px 20px;
 }
 /********************************************************************************/
 

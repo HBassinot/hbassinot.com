@@ -22,7 +22,37 @@
         <div class="hb-enterprise-location">Montréal, CA</div>
       </div>
     </div>
-    <div class="hb-enterprise-description" id="hb-ent-1"></div>
+    <div class="hb-enterprise-description" id="hb-ent-1">
+<h4>Expert Liferay/Java/JEE</h4>
+Expertise en développement Java et Liferay.<br> 
+Utilisation de méthodologie Agiles<br> 
+
+Missions réalisées :
+
+<ul style="text-align:left;">
+  <li>Touchtunes Inc - Montréal : Développeur JEE (2 mois)</li>
+  <ul style="text-align:left;">
+    <li>Conception et réalisation d'une API pour service mobile.</li>
+    <li>Technos: JAVA, Spring, Rest, Tomcat, Maven, Apple Pay, Vantiv, Git, Python</li>
+  </ul>
+
+  <li>Desjardins - Montréal : Consultant Liferay (15 mois)</li>
+  <ul style="text-align:left;">
+    <li>Participe à de nombreux projets en interne autour de la solution Portail d'entreprise.</li>
+    <li>Conception et réalisation de plugins Liferay 6.2 et DXP</li>
+    <li>Expertise technique et mise en place de solutions transverses au sein des Fondations Portail</li>
+    <li>Technos: JAVA, Liferay 6.2 et DXP, Spring, JBoss, Oracle, Git, JQuery, ReactJS, Rest, Velocity, Groovy, Ruby, SAML</li>
+  </ul>
+
+  <li>Desjardins Assurances - Montréal : Consultant Expert Liferay (depuis mars 2017 à aujourd'hui)</li>
+  <ul style="text-align:left;">
+    <li>Participation aux projets : lapersonnelle.com et desjardinsassurancesgenerale.com</li>
+    <li>Tech lead de la solution portail</li>
+    <li>Technos: JAVA, Liferay 6.2, Spring MVC, JBoss, Maven, Git, Jquery, MySQL, Groovy Script</li>
+  </ul>
+</ul>
+
+    </div>
     <div class="hb-enterprise-block-a" data-idel="hb-ent-1">
       <img src="img/arrow-down.png" class="hb-enterprise-arrow w3-hover-opacity" alt="arrow" />
     </div>
