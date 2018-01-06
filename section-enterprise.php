@@ -1,6 +1,6 @@
 <!-- Second Parallax Image with code -->
 <div class="hb-code-bgimg hb-section-img w3-display-container" id="enterprise">
-  <div class="hb-home-display-middle" style="">
+  <div class="hb-home-display-middle">
     <div class="w3-left w3-padding-large w3-black w3-xlarge w3-wide hb-animate-opacity">Consultant:<br> Liferay / Java / JEE</div>
   </div>
 </div>
@@ -18,7 +18,13 @@
 <!-- Container (Formations Section) -->
 <?php include("subsection-formation.php"); ?>
 
-<br/>
+<!-- 
+<div class="w3-center">
+  <a href="/cv.pdf" class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px;">
+    Télécharger mon C.V. au format PDF
+  </a>
+</div>
+-->
 
 <?php
 $path = "."; 
@@ -37,5 +43,10 @@ while (false !== ($entry = $d->read())) {
 }
 ?>
 
-Mise à jour le<?php echo ": ".date("d-M-Y", $latest_ctime) ?>
+<p style="text-align:right; padding:5px;">Mise à jour le<?php echo ": ".date("d-M-Y", $latest_ctime) ?></p>
+
+
+
+
+
 

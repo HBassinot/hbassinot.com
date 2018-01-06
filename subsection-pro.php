@@ -13,7 +13,9 @@
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
-        <img src="img/logo-enterprise/logo-savoirfairelinux.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Savoir-faire Linux"/>
+        <a href="https://savoirfairelinux.com/fr">
+          <img src="img/logo-enterprise/logo-savoirfairelinux.png" class="hb-enterprise-logo" class="w3-hover-opacity" alt="Savoir-faire Linux"/>
+        </a>
       </div>
       <div class="hb-enterprise-data">
         <h4 class="hb-enterprise-poste">Consultant en logiciel libre</h4>
@@ -30,25 +32,26 @@ Utilisation de méthodologie Agiles<br>
 Missions réalisées :
 
 <ul style="text-align:left;">
-  <li>Touchtunes Inc - Montréal : Développeur JEE (2 mois)</li>
+  <li><p class="hb-enterprise-technos">Touchtunes Inc - Montréal : Développeur JEE (2 mois)</p></li>
   <ul style="text-align:left;">
     <li>Conception et réalisation d'une API pour service mobile.</li>
-    <li>Technos: JAVA, Spring, Rest, Tomcat, Maven, Apple Pay, Vantiv, Git, Python</li>
+    <li><p class="hb-enterprise-technos">Technos:</p> JAVA, Spring, Rest, Tomcat, Maven, Apple Pay, Vantiv, Git, Python</li>
   </ul>
 
-  <li>Desjardins - Montréal : Consultant Liferay (15 mois)</li>
+  <li><p class="hb-enterprise-technos">Desjardins - Montréal : Consultant Liferay (15 mois)</p></li>
   <ul style="text-align:left;">
     <li>Participe à de nombreux projets en interne autour de la solution Portail d'entreprise.</li>
     <li>Conception et réalisation de plugins Liferay 6.2 et DXP</li>
     <li>Expertise technique et mise en place de solutions transverses au sein des Fondations Portail</li>
-    <li>Technos: JAVA, Liferay 6.2 et DXP, Spring, JBoss, Oracle, Git, JQuery, ReactJS, Rest, Velocity, Groovy, Ruby, SAML</li>
+    <li><p class="hb-enterprise-technos">Technos:</p> Java, Liferay 6.2 et DXP, Spring, JBoss, Oracle, Git, JQuery, ReactJS, Rest, Velocity, Groovy, Ruby, SAML</li>
   </ul>
 
-  <li>Desjardins Assurances - Montréal : Consultant Expert Liferay (depuis mars 2017 à aujourd'hui)</li>
+  <li><p class="hb-enterprise-technos">Desjardins Assurances - Montréal : Consultant Expert Liferay (de mars 2017 à aujourd'hui)</p></li>
   <ul style="text-align:left;">
     <li>Participation aux projets : lapersonnelle.com et desjardinsassurancesgenerale.com</li>
     <li>Tech lead de la solution portail</li>
-    <li>Technos: JAVA, Liferay 6.2, Spring MVC, JBoss, Maven, Git, Jquery, MySQL, Groovy Script</li>
+    <li>Réalisation de POCs</li>
+    <li><p class="hb-enterprise-technos">Technos:</p> Java, Liferay 6.2, Spring MVC, JBoss, Maven, Git, Jquery, MySQL, Groovy Script</li>
   </ul>
 </ul>
 
@@ -60,7 +63,9 @@ Missions réalisées :
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
-        <img src="img/logo-enterprise/logo-obs.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Orange Business Services"/>
+        <a href="https://www.orange-business.com/fr">
+        <img src="img/logo-enterprise/logo-obs.png" class="hb-enterprise-logo" class="w3-hover-opacity" alt="Orange Business Services"/>
+        </a>
       </div>
       <div class="hb-enterprise-data">
         <h4 class="hb-enterprise-poste">Ingénieur concepteur</h4>
@@ -73,8 +78,20 @@ Missions réalisées :
 <h4>Consultant Liferay/Java/JEE</h4>
 Missions réalisées :
 <ul style="text-align:left;">
-  <li>BETC - Consultant Liferay (projet DanOn) (7 mois)</li>
-  <li>ERDF - Développeur JEE (projet Cinkeo - compteurs élèctriques intelligents) (4 mois) </li>
+  <li><p class="hb-enterprise-technos">BETC - Paris : Consultant Liferay 2/2 (7 mois)</p></li>
+  <ul style="text-align:left;">
+    <li>Développement Liferay sur le projet Dan-on pour le compte de Danone</li>
+    <li>Conception et réalisation de plugins Liferay (Hooks, thèmes, Portlets)</li>
+    <li><p class="hb-enterprise-technos">Technos:</p>Liferay 6.2 JAVA, Spring, Velocity, Tomcat, Maven, JSTL, Git, Groovy script, JQuery</li>
+  </ul>
+
+  <li><p class="hb-enterprise-technos">ERDF - Nanterre : Développeur JEE (4 mois)</p></li>
+  <ul style="text-align:left;">
+    <li>Développement Java/JEE sur le projet Cinkeo : programme de suivi des compteurs élèctriques intelligents (Linky)</li>
+    <li>Livraison d'un système centralisé pour la gestion des logs de l'application</li>
+    <li><p class="hb-enterprise-technos">Technos:</p>Java 7, Spring MVC, Websphere, Maven, AspectJ (AOP)</li>
+  </ul>
+
 </ul>
     </div>
     <div class="hb-enterprise-block-a" data-idel="hb-ent-2">
@@ -84,7 +101,9 @@ Missions réalisées :
 
     <div class="hb-enterprise-block">
       <div class="hb-enterprise-left">
-        <img src="img/logo-enterprise/logo-axileo.png" class="hb-enterprise-logo" onclick="onClick(this)" class="w3-hover-opacity" alt="Axileo">
+        <a href="http://www.axileo.fr/">
+        <img src="img/logo-enterprise/logo-axileo.png" class="hb-enterprise-logo" class="w3-hover-opacity" alt="Axileo">
+        </a>
       </div>
       <div class="hb-enterprise-data">
         <h4 class="hb-enterprise-poste">Ingénieur d'études</h4>
@@ -97,8 +116,20 @@ Missions réalisées :
 <h4>Consultant Liferay/Java/JEE</h4>
 Missions réalisées :
 <ul style="text-align:left;">
-  <li>EDF - Développeur Liferay/JEE sur plusieurs projets internes et externe (projets PEPSI, GroupNet, VEOL, Mediateur, EDF Gaz Deutshland, OA Solaire) (19 mois)</li>
-  <li>BETC - Développeur Liferay (projet DanOn) (5 mois)</li>
+  <li><p class="hb-enterprise-technos">EDF - Clamart : Développeur Liferay/JEE (19 mois)</p></li>
+  <ul style="text-align:left;">
+    <li>Développement Liferay et Java sur plusieurs projets internes et externes (SESSI, PEPSI, GroupNet, VEOL, Mediateur, EDF Gaz Deutshland, OA Solaire)</li>
+    <li>Conception et réalisation de plugins Liferay (Hooks, thèmes, Portlets, Layouttpl, Ext, Web)</li>
+    <li>Mise en place de solution front end et back end</li>
+    <li><p class="hb-enterprise-technos">Technos:</p>Liferay 6.0, 6.1 et 6.2, Java, Spring, Velocity, Tomcat, JBoss, Ant, Bash, Maven, JSTL, Git, Groovy script, JQuery, AUI</li>
+  </ul>
+ 
+  <li><p class="hb-enterprise-technos">BETC - Paris : Développeur Liferay 1/2 (5 mois)</p></li>
+  <ul style="text-align:left;">
+    <li>Développement Liferay sur le projet Dan-on pour le compte de Danone</li>
+    <li>Conception et réalisation de plugins Liferay (Hooks, thèmes, Portlets)</li>
+    <li><p class="hb-enterprise-technos">Technos:</p>Liferay 6.2, Java, Spring, Velocity, Tomcat, Maven, JSTL, Git, Groovy script</li>
+  </ul>
 </ul>
     </div>
     <div class="hb-enterprise-block-a" data-idel="hb-ent-3">
@@ -219,9 +250,6 @@ Conception et développement d'un outil de gestion des ressources informatiques,
       <img src="img/logo-mission/mission-edf.png" style="width:100%" class="w3-hover-opacity" alt="EDF">
       <span class="hb-enterprise-name">EDF</span>
     </div>
-
-    <!-- <button class="hb-menu-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
-
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -262,7 +290,7 @@ Conception et développement d'un outil de gestion des ressources informatiques,
 $('.hb-enterprise-block-a').click(function () {
   var el = $('#' + $(this).data('idel'));
   if ( el.is( ":hidden" ) ) {
-    $('.hb-enterprise-description').slideUp("slow");
+    //$('.hb-enterprise-description').slideUp("slow");
     el.slideDown( "slow" );
   } else {
     el.slideUp("slow");

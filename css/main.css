@@ -101,7 +101,7 @@ hr {
       display: none !important;
   }
 }
-@media (min-width:651px) {
+@media (min-width:649px) {
   .hb-menu-hide-large {
       display: none !important;
   }
@@ -173,11 +173,21 @@ hr {
 border:white solid 5px;
 }
 
-.hb-enterprise-logo {
-  float:left;
-  height:150px;
-  width:150px;
+@media (max-width:649px) {
+  .hb-enterprise-logo {
+      float: left;
+      height: 90px;
+      width: 90px;
+  }
 }
+@media (min-width:650px) {
+  .hb-enterprise-logo {
+    float:left;
+    height:150px;
+    width:150px;
+  }
+}
+
 
 .hb-enterprise-arrow {
   width: 90px;
@@ -214,7 +224,7 @@ border:white solid 5px;
   margin: 3px;
   padding: 20px;
   display: none;
-  width: 98%;
+  width: 99%;
   z-index: 2;
   margin: auto;
   box-shadow: 0px 5px 6px 1px rgba(0,0,0,0.5);
@@ -274,7 +284,6 @@ border:white solid 5px;
 
 .footer-icon {
   display: inline-block;
-  width: 30px; 
   height: 30px; 
   object-fit: cover;
   padding-right: 15px;

@@ -54,7 +54,7 @@
 
       <p class="hb-skill">Méthodologie:</p>
       <p class="hb-skill-values">
-          Agile/Scrum, Cycle en V et XP
+          Agile/Scrum, XP et Cycle en V
       </p>
 
       <p class="hb-skill">Frameworks Java:</p>

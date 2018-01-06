@@ -5,15 +5,13 @@
 
   <div class="hb-formation-block">
     <div class="hb-formation-left">
-      <a href="http://www.u-pem.fr/formations/loffre-de-formations/masters/domaine-sciences-technologies-sante/mention-informatique/master-logiciels/" title="Master de l'Université Paris Est Marne-la-Vallée" target="_blank">
-        <img src="img/logo-formation/logo-umlv.png" class="w3-hover-opacity hb-formation-logo" alt="Université Paris Est Marne-la-Vallée">
-      </a>
+      <img src="img/logo-formation/logo-umlv.png" class="w3-hover-opacity hb-formation-logo" alt="Université Paris Est Marne-la-Vallée">
     </div>
     <div class="hb-formation-desc">
       <h4 class="hb-formation-diplome">Master Informatique (2011-2012)</h4>
       <div class="hb-formation-spe">Spécialité Génie Logiciel</div>
       <div class="hb-formation-university">
-        <a href="http://www.u-pem.fr/" title="Site de l'Université Paris Est Marne-la-Vallée" target="_blank">      
+        <a href="http://www.u-pem.fr/formations/loffre-de-formations/masters/domaine-sciences-technologies-sante/mention-informatique/master-logiciels/" title="Site de l'Université Paris Est Marne-la-Vallée" target="_blank">      
           Université Paris Est Marne-la-Vallée
         </a>
       </div>
@@ -24,15 +22,13 @@
 
   <div class="hb-formation-block">
     <div class="hb-formation-left">
-      <a href="http://www.u-pem.fr/formations/loffre-de-formations/licences-generales/domaine-sciences-technologies-sante/mention-informatique/licence-informatique/" title="Licence de l'Université Paris Est Marne-la-Vallée" target="_blank">
-        <img src="img/logo-formation/logo-umlv.png" class="w3-hover-opacity hb-formation-logo" alt="Université Paris Est Marne-la-Vallée">
-      </a>
+      <img src="img/logo-formation/logo-umlv.png" class="w3-hover-opacity hb-formation-logo" alt="Université Paris Est Marne-la-Vallée">
     </div>
     <div class="hb-formation-desc">
       <h4 class="hb-formation-diplome">Licence Mathématique et Informatique (2008-2010)</h4>
       <div class="hb-formation-spe">Spécialité Informatique</div>
       <div class="hb-formation-university">
-        <a href="http://www.u-pem.fr/" title="Site de l'Université Paris Est Marne-la-Vallée" target="_blank">      
+        <a href="http://www.u-pem.fr/formations/loffre-de-formations/licences-generales/domaine-sciences-technologies-sante/mention-informatique/licence-informatique/" title="Site de l'Université Paris Est Marne-la-Vallée" target="_blank">      
           Université Paris Est Marne-la-Vallée
         </a>
       </div>
@@ -43,9 +39,7 @@
 
   <div class="hb-formation-block">
     <div class="hb-formation-left">
-      <a href="#" title="Baccalauréat Général Scientifique" target="_blank">
-        <img src="img/logo-formation/logo-gustave.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
-      </a>
+      <img src="img/logo-formation/logo-gustave.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
     </div>
     <div class="hb-formation-desc">
       <h4 class="hb-formation-diplome">Baccalauréat Général (2007)</h4>

@@ -17,7 +17,7 @@
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Adresse: Montréal, QC, CA<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 xxxx<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Téléphone: +1 514 550 deux huit deux cinq<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: herve (dot) bassinot (at) gmail (dot) com<br>
         <div class="hb-contact-social">
           <ul class="inlineList">
@@ -44,7 +44,7 @@
       <form action="/mail.php" target="_blank" method="post">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            <input class="w3-input w3-border" type="text" placeholder="Nom" required name="Name">
           </div>
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">

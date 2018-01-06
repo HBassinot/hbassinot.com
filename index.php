@@ -17,7 +17,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/main.css" />
 
-      <link rel="icon" type="image/png" href="img/favicon.png" />
+      <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
   </head>
 
   <body>
