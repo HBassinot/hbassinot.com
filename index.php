@@ -5,8 +5,12 @@
       <meta charset="utf-8" />
       
       <title>Accueil - hbassinot.com</title>
+
       <meta name="viewport" content="width=device-width, initial-scale=1">
-            
+      <meta name="keywords" content="parcours formations montreal expert liferay developpeur jee java paris spring desjardins savoir-faire linux herve bassinot">
+      <meta name="category" content="expert liferay">
+      <meta name="Description" content="Expert Liferay analyste développeur et concepteur spécialisé dans les technologies Java">
+
       <script src="js/main.js"></script>
 
       <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
