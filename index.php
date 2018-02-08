@@ -23,6 +23,8 @@
 
       <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
 
+			<link rel="alternate" href="https://hbassinot.com" hreflang="fr-fr">
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113804162-1"></script>
       <script>
