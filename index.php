@@ -32,6 +32,7 @@
 
         gtag('config', 'UA-113804162-1');
       </script>
+      <meta name="google-site-verification" content="q2JWH6uwcZqBmRw5-QEQAsuWOyE5BpbAx1lbIHhIzls" /> 
 
   </head>
 
