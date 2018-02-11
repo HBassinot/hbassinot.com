@@ -2,13 +2,17 @@
 
 <html>
   <head>
+    <meta charset="utf-8" />
+
     <title>Flocon de Koch - hbassinot.com</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <?php include("../analytics.php"); ?>
   </head> 
   <body>
     <div>
-	    <h1>Flocon de Koch et variations :</h1>
-	    Itération :
+	    <h1>Flocon de Koch et variations:</h1>
+	    Itération:
 	    <select id="iteration">
 		    <option value="0">0</option>
 		    <option value="1">1</option>
@@ -21,7 +25,7 @@
 		    <option value="8">8</option>
 	    </select>
 	    <br />
-	    Taille de l'arrète :
+	    Taille:
 	    <select id="size">
 		    <option value="200">200</option>
 		    <option value="300">300</option>
@@ -35,7 +39,7 @@
 		    <option value="1500">1500</option>
 	    </select>
 	    <br />
-	    Nombre d'arrète :
+	    Nombre d'arrète:
 	    <select id="edge">
 		    <option value="1">1</option>
 		    <option value="2">2</option>
@@ -47,7 +51,7 @@
 		    <option value="8">8</option>
 	    </select>
 	    <br />
-	    Forme<input type="checkbox" id="shape" value="true"/>
+	    Forme de base<input type="checkbox" id="shape" value="true"/>
 	    <br />
 	    <canvas id="moncanevas" width="2000" height="2000">
 		    Canvas n'est pas implémenté dans ce navigateur.
@@ -75,7 +79,7 @@
 	    lastStartX = size;
 	    lastStartY = size / 2;
 	    radius = 0;
-	
+
 	    LEFT = -1*Math.PI/3;
 	    RIGHT = 2*Math.PI/3;
 	    RIGHT_SEGMENT = 2*Math.PI/edge;
