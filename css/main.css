@@ -315,7 +315,7 @@ border:white solid 5px;
 }
 
 .hb-section-img {
-  min-height: 500px;
+  min-height: 100%;
   opacity: 0.75;
 }
 
