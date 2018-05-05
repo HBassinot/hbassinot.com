@@ -43,7 +43,7 @@ while (false !== ($entry = $d->read())) {
 }
 ?>
 
-<p style="text-align:right; padding:5px;">Mise à jour le<?php echo ": ".date("d-M-Y", $latest_ctime) ?></p>
+<p style="text-align:right; padding:5px;">Mis à jour le<?php echo ": ".date("d-M-Y", $latest_ctime) ?></p>
 
 
 

@@ -221,35 +221,14 @@ Conception et développement d'un outil de gestion des ressources informatiques,
   </p>
 
   <div class="hb-clients w3-row-padding w3-center w3-section">
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-betc.png" style="width:100%" class="w3-hover-opacity" alt="BETC">
-      <span class="hb-enterprise-name">BETC</span>
-    </div>
-
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-dgag.png" style="width:100%" class="w3-hover-opacity" alt="Desjardins Groupe d'Assurances Générales">
-      <span class="hb-enterprise-name">Desjardins Groupe d'Assurances Générales</span>
-    </div>
-
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-touchtunes.png" style="width:100%" class="w3-hover-opacity" alt="Touchtunes">
-      <span class="hb-enterprise-name">Touchtunes</span>
-    </div>
-
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-desjardins.png" style="width:100%" class="w3-hover-opacity" alt="Desjardins">
-      <span class="hb-enterprise-name">Desjardins</span>
-    </div>
-
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-erdf.png" style="width:100%" class="w3-hover-opacity" alt="Enedis">
-      <span class="hb-enterprise-name">Enedis (ex ERDF)</span>
-    </div>
-
-    <div class="hb-client-block">
-      <img src="img/logo-mission/mission-edf.png" style="width:100%" class="w3-hover-opacity" alt="EDF">
-      <span class="hb-enterprise-name">EDF</span>
-    </div>
+    <?php 
+      ClientSection('BETC', 'img/logo-mission/mission-betc.png');
+      ClientSection('Desjardins Groupe d\'Assurances Générales', 'img/logo-mission/mission-dgag.png');
+      ClientSection('Touchtunes', 'img/logo-mission/mission-touchtunes.png');
+      ClientSection('Desjardins', 'img/logo-mission/mission-desjardins.png');
+      ClientSection('Enedis (ex ERDF)', 'img/logo-mission/mission-erdf.png');
+      ClientSection('EDF', 'img/logo-mission/mission-edf.png');
+    ?>
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
