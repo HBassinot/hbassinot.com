@@ -19,24 +19,20 @@
   </div>
 </nav>
 
-<?php include("engine.php"); ?>
 
-<!-- Container (Home Section) -->
-<?php include("section-home.php"); ?>
+<?php 
+  //<!-- Container (Home Section) -->
+  include("section-home.php");
 
-<!-- Container (Enterprise Section) -->
-<?php include("section-enterprise.php"); ?>
+  //<!-- Container (Enterprise Section) -->
+  include("section-enterprise.php");
 
-<!-- Container (Project Section) -->
-<?php include("section-project.php"); ?>
+  //<!-- Container (Project Section) -->
+  include("section-project.php");
 
-<!-- Container (Contact Section) -->
-<?php include("section-contact.php"); ?>
+  //<!-- Container (Contact Section) -->
+  include("section-contact.php");
 
-<div id="hb-backtop" class="hb-backtop-hide">
-  <a href="#home" class="hb-menu-button w3-light-grey" >
-    <i class="fa fa-arrow-up w3-margin-right"></i>
-    Haut de page
-  </a>
-</div>
+  PageUp($lang_upPage);
+?>
 

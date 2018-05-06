@@ -20,7 +20,7 @@
 
   <p class="w3-justify w3-content w3-container">
     Analyste développeur et concepteur spécialisé dans les technologies Java.  
-    Je possede plus de 6 ans d'expériences professionnelle en développement logiciel.
+    Je possede plus de 6 ans d'expérience professionnelle en développement logiciel.
     J'ai participé à de nombreux projets en interne et pour plusieurs clients dans différents domaines (Publicité, Télécom, Assurance, Bancaire et Énergie).
     Je me suis spécialisé dans le développement d'applications Liferay.
   </p>
