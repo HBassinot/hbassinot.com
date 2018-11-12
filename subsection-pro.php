@@ -19,7 +19,13 @@
       </div>
       <div class="hb-enterprise-data">
         <h4 class="hb-enterprise-poste">Consultant en logiciel libre</h4>
-        <div class="hb-enterprise-date">Sept. 2015 à aujourd'hui (2 ans et 6 mois)</div>
+
+	<?php
+		$datetime1 = date_create('2015-09-01');
+		$datetime2 = $datetime1->diff(new DateTime());
+	?>
+
+        <div class="hb-enterprise-date">Sept. 2015 à aujourd'hui (<?php echo $datetime2->y.' ans et '.$datetime2->m.' mois' ?>)</div>
         <div class="hb-enterprise-name">Savoir-faire Linux</div>
         <div class="hb-enterprise-location">Montréal, CA</div>
       </div>
