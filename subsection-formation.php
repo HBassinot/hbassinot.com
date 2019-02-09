@@ -96,7 +96,7 @@
     </div>
     <div class="hb-formation-desc">
       <h4 class="hb-formation-diplome">Liferay 6.2 Professional Developer (2016)</h4>
-      <div class="hb-formation-spe">Licence 7QU5O9KCH71YZD3</div>
+      <div class="hb-formation-spe">Licence 7QU5O9KCH71YZD3 - <a href="https://www.liferay.com/fr/services/certification/verify-a-certification">Vérifier ici</a></div>
       <div class="hb-formation-university">
         <a href="https://www.prometric.com/en-us/Pages/home.aspx" title="Site Prometric" target="_blank">      
           Promotric - Montréal, CA
