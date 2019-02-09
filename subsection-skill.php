@@ -32,19 +32,20 @@
       <p class="hb-skill-values">
           Git, SVN<br/>
           Jenkins, Jira, Redmine<br/>
-          Eclipse, Netbeans, Emacs
+          Eclipse, Netbeans, Emacs<br/>
+          NPM, Graddle
       </p>
 
       <p class="hb-skill">Portail:</p>
       <p class="hb-skill-values">
-          Liferay 6.x et DXP, Portlet, JSR-168, JSR-286
+          Liferay 6.x et DXP 7.x, Portlet, JSR-168, JSR-286
       </p>
     </div>
 
     <div class="w3-col m6 w3-container">
       <p class="hb-skill">Logiciel:</p>
       <p class="hb-skill-values">
-          WireShark, Cisco Packet Tracert
+          WireShark, Cisco Packet Tracert, Visio
       </p>
 
       <p class="hb-skill">Administration système:</p>
@@ -54,7 +55,7 @@
 
       <p class="hb-skill">Méthodologie:</p>
       <p class="hb-skill-values">
-          Agile/Scrum, XP et Cycle en V
+          Agile/Scrum, Safe, XP et Cycle en V
       </p>
 
       <p class="hb-skill">Frameworks Java:</p>
