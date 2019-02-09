@@ -54,14 +54,31 @@
 
   <h3 class="w3-center"><em>Formations</em></h3>
 
-  <div class="hb-formation-block">
+    <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
-        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
       </a>
     </div>
     <div class="hb-formation-desc">
-      <h4 class="hb-formation-diplome">Formation Developpeur Liferay DXP (2016)</h4>
+      <h4 class="hb-formation-diplome">Formation Développeur Liferay DXP 7.1 (2018)</h4>
+      <div class="hb-formation-spe">Liferay Developper</div>
+      <div class="hb-formation-university">
+          Liferay - Montréal, CA
+      </div>
+    </div>
+  </div>
+
+  <br/>
+  
+  <div class="hb-formation-block">
+    <div class="hb-formation-left">
+      <a href="https://www.liferay.com/" title="Liferay" target="_blank">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
+      </a>
+    </div>
+    <div class="hb-formation-desc">
+      <h4 class="hb-formation-diplome">Formation Développeur Liferay DXP 7.0 (2016)</h4>
       <div class="hb-formation-spe">Développement de portlets et de hooks Liferay</div>
       <div class="hb-formation-university">
           Liferay - Chicago, USA
@@ -74,11 +91,11 @@
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
-        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
       </a>
     </div>
     <div class="hb-formation-desc">
-      <h4 class="hb-formation-diplome">Formation Developpeur Liferay 6.1 (2012)</h4>
+      <h4 class="hb-formation-diplome">Formation Développeur Liferay 6.1 (2012)</h4>
       <div class="hb-formation-spe">Développement de portlets et de hooks Liferay</div>
       <div class="hb-formation-university">      
           GFI - Clamart, FR
