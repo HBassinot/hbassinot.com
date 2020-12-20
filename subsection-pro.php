@@ -54,10 +54,19 @@ Missions réalisées :
 
   <li><p class="hb-enterprise-technos">Desjardins Assurances - Montréal : Consultant Expert Liferay (de mars 2017 à aujourd'hui)</p></li>
   <ul style="text-align:left;">
-    <li>Participation aux projets : lapersonnelle.com et desjardinsassurancesgenerale.com</li>
+    <li>Participation aux projets : lapersonnelle.com (LP/TP), desjardinsagents.com (DAN) et desjardinsassurancesgenerale.com (DA/DI)</li>
     <li>Tech lead de la solution portail</li>
     <li>Réalisation de POCs</li>
+    <li>Support et évolution projets</li>
     <li><p class="hb-enterprise-technos">Technos:</p> Java, Liferay 6.2, Spring MVC, JBoss, Maven, Git, Jquery, MySQL, Groovy Script</li>
+  </ul>
+	
+  <li><p class="hb-enterprise-technos">Migration vers Liferay DXP 7.x</p></li>
+  <ul style="text-align:left;">
+    <li>Migration de tous les sites informationnels DGAG vers Liferay DXP 7.1</li>
+    <li>Migration de l'infrastructure vers le cloud Azure - AKS (Kubernetes)</li>
+    <li>Migration du site transactionnel EAP vers Liferay 7.2</li>
+    <li><p class="hb-enterprise-technos">Technos:</p> Java 11, Liferay DXP 7.1 et 7.2, OSGi, Tomcat, Gradle, Git, Jquery, MySQL, Groovy Script, Concourse, Azure, Kubernetes (AKS)</li>
   </ul>
 </ul>
 
