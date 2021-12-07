@@ -124,15 +124,11 @@
   
   <div class="hb-formation-block">
     <div class="hb-formation-left">
-      <a href="https://www.liferay.com/services/certification/verify-a-certification" title="Vérifier la certification" target="_blank">
-        <img src="img/logo-formation/certification.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
-      </a>
+			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="16abeb80-20e8-48d0-8aa1-0bd429f3d075" data-share-badge-host="https://www.credly.com"></div>
+			<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
     </div>
     <div class="hb-formation-desc">
-    
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="16abeb80-20e8-48d0-8aa1-0bd429f3d075" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-      
+      <h4 class="hb-formation-diplome">Professional Scrum Master I (2021)</h4>
     </div>
   </div>
 </div>
