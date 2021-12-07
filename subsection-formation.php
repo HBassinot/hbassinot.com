@@ -122,7 +122,9 @@
     </div>
   </div>
   
-  <div class="hb-formation-block">
+  <br/>
+  
+  <div class="hb-formation-block" style="height:270px;">
     <div class="hb-formation-left">
 			<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="16abeb80-20e8-48d0-8aa1-0bd429f3d075" data-share-badge-host="https://www.credly.com"></div>
 			<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
@@ -131,4 +133,5 @@
       <h4 class="hb-formation-diplome">Professional Scrum Master I (2021)</h4>
     </div>
   </div>
+  
 </div>
