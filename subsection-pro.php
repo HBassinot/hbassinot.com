@@ -1,6 +1,12 @@
 <div class="w3-content w3-container w3-padding-48">
   <h1 class="w3-center">Expériences professionnelle</h1>
   
+  <p class="w3-center">
+    <em>Vous pouvez télécharger mon Curriculum Vitae en cliquant sur le lien suivant:<br> 
+    <a href="doc/CV_HB-v2.0.pdf">CV_HB-v2.0.pdf</a>
+    </em>
+  </p>
+
   <h3 class="w3-center"><em>Employeurs</em></h3>
   <p class="w3-center">
     <em>Voici ci-dessous toutes les entreprises pour lesquelles j'ai travaillé.<br> 
