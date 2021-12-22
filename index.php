@@ -26,7 +26,7 @@
       <link rel="stylesheet" type="text/css" href="css/main.css" />
 
       <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-
+			<link rel="canonical" href="https://hbassinot.com"/>
 			<link rel="alternate" href="https://hbassinot.com" hreflang="fr-fr">
 
       <?php include("analytics.php"); ?>

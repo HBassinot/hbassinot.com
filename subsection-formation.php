@@ -39,7 +39,7 @@
 
   <div class="hb-formation-block">
     <div class="hb-formation-left">
-      <img src="img/logo-formation/logo-gustave.png" class="w3-hover-opacity hb-formation-logo" alt="Bac S">
+      <img src="img/logo-formation/logo-gustave.png" class="w3-hover-opacity hb-formation-logo" alt="Logo du lycée Gustave Eiffel">
     </div>
     <div class="hb-formation-desc">
       <h4 class="hb-formation-diplome">Baccalauréat Général (2007)</h4>
@@ -57,7 +57,7 @@
     <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
-        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="image du logo de Liferay">
       </a>
     </div>
     <div class="hb-formation-desc">
@@ -74,7 +74,7 @@
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
-        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="image du logo de Liferay">
       </a>
     </div>
     <div class="hb-formation-desc">
@@ -91,7 +91,7 @@
   <div class="hb-formation-block">
     <div class="hb-formation-left">
       <a href="https://www.liferay.com/" title="Liferay" target="_blank">
-        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="">
+        <img src="img/logo-formation/logo-liferay.png" class="w3-hover-opacity hb-formation-logo" alt="image du logo de Liferay">
       </a>
     </div>
     <div class="hb-formation-desc">

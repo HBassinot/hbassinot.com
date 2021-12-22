@@ -8,7 +8,7 @@
     <div class="w3-col m6 w3-container">
       <p class="hb-skill">Web:</p>
       <p class="hb-skill-values">
-          HTML5, CSS3, JavaScript (JQuery, AUI, ReactJS), Ajax, Angular1
+          HTML5, CSS3, JavaScript (JQuery, AUI, React), Ajax, Angular1
       </p>
 
       <p class="hb-skill">Langages:</p>
@@ -33,7 +33,7 @@
           Git, SVN<br/>
           Jenkins, Jira, Redmine<br/>
           Eclipse, Netbeans, Emacs<br/>
-          NPM, Graddle
+          NPM, Gradle
       </p>
 
       <p class="hb-skill">Portail:</p>

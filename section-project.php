@@ -23,6 +23,13 @@
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m6">
+      <a href="https://www.desjardinsagents.com" title="Desjardins Agents" target="_blank">
+        <img src="img/projet/capture-dan.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site Desjardins Assurances">
+        <span class="hb-enterprise-name">Desjardins Agents (2018)</span>
+      </a>
+    </div>
+
+    <div class="w3-col m6">
       <a href="https://www.lapersonnelle.com" title="La Personnelle" target="_blank">
         <img src="img/projet/capture-lptp.png" style="width:100%; box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);" class="w3-hover-opacity" alt="Site La Personnelle">
         <span class="hb-enterprise-name">La Personnelle (2017)</span>
