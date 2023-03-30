@@ -3,6 +3,7 @@
 <?php 
   // this file loads functions and variables
   include("engine.php"); 
+  $lang_title = "Erreur 404 - hbassinot.com";
 ?>
 
 <html>
