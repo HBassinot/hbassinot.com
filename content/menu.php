@@ -14,9 +14,9 @@
 
   <!-- menu on small screens -->
   <div id="hb-menu-small" class="w3-bar-block w3-white w3-hide hb-menu-hide-large">
-    <a href="#enterprise" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Consultant</a>
-    <a href="#projects" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Projets</a>
-    <a href="#contact" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Contact</a>
+    <a href="/#enterprise" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Consultant</a>
+    <a href="/#projects" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Projets</a>
+    <a href="/#contact" class="hb-menu-button hb-menu-item-small" onclick="toggleFunction()">Contact</a>
   </div>
 </nav>
 
