@@ -16,7 +16,7 @@
       <meta name="category"     content="<?php echo $lang_category ?>">
       <meta name="Description"  content="<?php echo $lang_description ?>">
 
-      <script src="js/main.js"></script>
+      <script src="/js/main.js"></script>
 
       <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
       <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
