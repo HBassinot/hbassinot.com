@@ -6,10 +6,10 @@
     <a class="hb-menu-button w3-hover-black hb-menu-hide-large hb-menu-icon-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="hb-menu-icon-small"></i>
     </a>
-    <a href="#home" class="hb-menu-button">Accueil</a>
-    <a href="#enterprise" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Consultant</a>
-    <a href="#projects" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Projets</a>
-    <a href="#contact" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Contact</a>
+    <a href="/#home" class="hb-menu-button">Accueil</a>
+    <a href="/#enterprise" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Consultant</a>
+    <a href="/#projects" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Projets</a>
+    <a href="/#contact" class="hb-menu-button hb-menu-hide-small"><i class="hb-menu-item"></i>Contact</a>
   </div>
 
   <!-- menu on small screens -->
