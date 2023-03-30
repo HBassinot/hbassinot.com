@@ -3,7 +3,7 @@
   
   <p class="w3-center">
     <em>Vous pouvez télécharger mon Curriculum Vitae en cliquant sur le lien suivant:<br> 
-    <a href="doc/CV_HB-v2.0.pdf">CV_HB-v2.1.pdf</a>
+    <a href="doc/CV_HB-v2.1.pdf">CV_HB-v2.1.pdf</a>
     </em>
   </p>
 
