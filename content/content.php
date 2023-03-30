@@ -2,7 +2,7 @@
 
 
 <?php 
-  //<!-- Container (Home Section) -->
+  //<!-- Container (Menu Section) -->
   include("menu.php");
   
   //<!-- Container (Home Section) -->
