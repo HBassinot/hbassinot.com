@@ -8,7 +8,7 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      
+
       <title><?php echo $lang_title ?></title>
 
       <meta name="viewport"     content="width=device-width, initial-scale=1">
@@ -26,13 +26,8 @@
       <link rel="stylesheet" type="text/css" href="css/main.css" />
 
       <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-			<link rel="canonical" href="https://hbassinot.com"/>
-			<link rel="alternate" href="https://hbassinot.com" hreflang="fr-fr">
-
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9616193945098523"
-			crossorigin="anonymous"></script>
-
-      <?php include("analytics.php"); ?>
+      <link rel="canonical" href="https://hbassinot.com"/>
+      <link rel="alternate" href="https://hbassinot.com" hreflang="fr-fr">
   </head>
 
   <body>
@@ -41,7 +36,7 @@
       include("content/header.php"); 
 
       //<!-- content -->
-      include("content/content.php");
+      include("content/content404.php");
 
       //<!-- footer -->
       include("content/footer.php"); 

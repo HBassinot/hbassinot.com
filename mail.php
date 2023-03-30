@@ -5,6 +5,7 @@
     	********************************************************************************************
     */
     // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
+    //$destinataire = 'herve.bassinot@savoirfairelinux.com';
     $destinataire = 'herve.bassinot@gmail.com';
      
     // copie ? (envoie une copie au visiteur)
